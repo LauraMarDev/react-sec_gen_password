@@ -10,7 +10,7 @@ export function Logo(){
                 source={imgLogo}
                 style={{
                     resizeMode:'contain',
-                    height: 300
+                    height: 150
                 }}
             />
         </View>

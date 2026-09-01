@@ -8,10 +8,13 @@ import styles from './HomeStyles' // o "styles" não tá entre chaves por ser um
 export default function Home() { // nome do componente
     return(
         <View style={styles.container}>  // funções no react native retornam apenas um componente cada. Por isso devemos isolar tudo em um único componente: o View
-            
-            <Logo/>
-            <TextInputPass/>
-            <ButtonPass/>
+            <View style={styles.logoContainer}>
+                <Logo/>
+            </View>
+
+            <View style={styles.buttonContainer}>
+                <ButtonPass/>
+            </View>
 
             <StatusBar style="auto" />
         </View>
