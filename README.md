@@ -1,11 +1,16 @@
 # 📱  react-sec_gen_password
 
+<<<<<<< HEAD
 > Gerador de senhas randômicas.
+=======
+> Uma breve descrição do projeto em uma frase.
+>>>>>>> b2c58c203d233d2cd6889e09bff8d2ed6b8812c5
 
 ## 📌 Sobre o projeto
 
 Este projeto foi desenvolvido utilizando React Native e TypeScript com o objetivo de aprender a manipular o framework.
 
+<<<<<<< HEAD
 A aplicação permite que o usuário gere senhas randômicas.
 
 O projeto foi desenvolvido como parte de um estudo/projeto acadêmico e teve como foco o desenvolvimento de uma aplicação mobile gerador de senhas randômicas utilizando boas práticas de organização e componentização.
@@ -14,6 +19,18 @@ O projeto foi desenvolvido como parte de um estudo/projeto acadêmico e teve com
 
 - [x] Gerar Senha
 - [x] Copiar Senha para Área de Transferência
+=======
+A aplicação permite que o usuário gere senhas.
+
+O projeto foi desenvolvido como parte de [estudo/projeto acadêmico/projeto pessoal/etc.] e teve como foco o desenvolvimento de uma aplicação mobile utilizando boas práticas de organização e componentização.
+
+## ✨ Funcionalidades
+
+- [x] Funcionalidade 1
+- [x] Funcionalidade 2
+- [x] Funcionalidade 3
+- [ ] Funcionalidade futura
+>>>>>>> b2c58c203d233d2cd6889e09bff8d2ed6b8812c5
 
 ## 🖼️ Demonstração
 
@@ -21,12 +38,15 @@ O projeto foi desenvolvido como parte de um estudo/projeto acadêmico e teve com
 
 ![Tela inicial](./assets/home.png)
 
+<<<<<<< HEAD
 ### 📱 Screenshots
 
 | Tela inicial | Tela de cadastro | Tela de detalhes |
 |:---:|:---:|:---:|
 | ![Home](./assets/home.png) | ![Cadastro](./assets/cadastro.png) | ![Detalhes](./assets/detalhes.png) |
 
+=======
+>>>>>>> b2c58c203d233d2cd6889e09bff8d2ed6b8812c5
 ## 🛠️ Tecnologias utilizadas
 
 - React Native
@@ -36,6 +56,7 @@ O projeto foi desenvolvido como parte de um estudo/projeto acadêmico e teve com
 
 ```text
 src/
+<<<<<<< HEAD
 ├── components/
 |   ├── ButtonPass/
 |   ├── Logo/
@@ -98,3 +119,14 @@ Durante o desenvolvimento deste projeto, foram trabalhados conceitos como:
 Laura Marques Pinheiro
 
 [♥ LinkedIn](https://www.linkedin.com/in/laura-marques-51748b293) • [♥ GitHub](https://github.com/LauraMarDev/)
+=======
+├──  components/
+├──── ButtonPass/
+├──── Logo/
+├──── TextInputPass/
+├── screens/
+├── services/
+├──── Home/
+├── assets/
+└── ...
+>>>>>>> b2c58c203d233d2cd6889e09bff8d2ed6b8812c5
