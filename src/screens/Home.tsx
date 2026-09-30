@@ -4,6 +4,7 @@ import { Logo } from '../components/Logo/Logo';
 import { TextInputPass } from '../components/TextInputPass/TextInputPass';
 import { ButtonPass } from '../components/ButtonPass/ButtonPass';
 import styles from './HomeStyles' // o "styles" não tá entre chaves por ser uma constante. se fosse algo variável, usaria entre chaves
+import React from 'react';
 
 export default function Home() { // nome do componente
     return(

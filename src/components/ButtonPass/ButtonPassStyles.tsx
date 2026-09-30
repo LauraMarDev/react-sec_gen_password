@@ -1,7 +1,14 @@
 import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
-    button:{
+    lengthLabel: {
+        color: '#ff1e78',
+        fontSize: 13,
+        fontWeight: 'bold',
+        marginBottom: 5,
+        textAlign: 'center',
+    },
+    button: {
         marginTop: 20,
         marginBottom: 10,
 
@@ -17,11 +24,45 @@ export const styles = StyleSheet.create({
         borderWidth: 2,
         elevation: 3,
 
-        backgroundColor: 'white'
+        backgroundColor: 'white',
     },
-    text:{
+    buttonPressed: {
+        backgroundColor: '#ff1e78',
+    },
+    buttonDisabled: {
+        opacity: 0.5,
+    },
+    text: {
         fontSize: 15,
         color: '#ff1e78',
         fontWeight: 'bold',
-    }
-})
+    },
+    textPressed: {
+        color: 'white',
+    },
+    textDisabled: {
+        color: '#999999',
+    },
+    strengthContainer: {
+        flexDirection: 'row',
+        justifyContent: 'center',
+        marginTop: 8,
+    },
+    strengthText: {
+        fontSize: 14,
+        fontWeight: 'bold',
+        color: '#555555',
+    },
+    strengthNeutral: {
+        color: '#777777',
+    },
+    strengthWeak: {
+        color: '#d32f2f',
+    },
+    strengthMedium: {
+        color: '#f57c00',
+    },
+    strengthStrong: {
+        color: '#2e7d32',
+    },
+});

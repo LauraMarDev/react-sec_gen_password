@@ -1,6 +1,7 @@
 import { View, Text, Image} from 'react-native';
 import styles from './LogoStyles';
 import imgLogo from '../../../assets/logo-app.png'
+import React from 'react';
 
 export function Logo(){
     return(
